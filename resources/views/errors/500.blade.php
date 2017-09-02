@@ -5,5 +5,5 @@
 @section('doc-class', 'body-blue')
 
 @section('error')
-<h2 class="title">Erreur 500 (Internal Server Error)</h2>
+<h2 class="title">Error 500 (Internal Server Error)</h2>
 @endsection
