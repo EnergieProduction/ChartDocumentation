@@ -56,7 +56,6 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><i class="icon fa @yield('doc-logo')"></i> @yield('doc-title')</h1>
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: Jan 25th, 2017</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
