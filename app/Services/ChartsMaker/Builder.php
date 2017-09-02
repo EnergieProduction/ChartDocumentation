@@ -33,6 +33,6 @@ class Builder
     {
         $class = ucfirst($config['type']) . ucfirst(camel_case($config['sub_type']));
 
-        return "App\\Services\\ChartsMaker\\Charts\\" . $class;
+        return "\\App\\Services\\ChartsMaker\\Charts\\" . $class;
     }
 }
