@@ -4,7 +4,7 @@ namespace App\Services\ChartsMaker\Charts;
 
 use EnergieProduction\Chart\Criterias;
 
-class Scatterplot extends Chart {
+class ScatterPlot extends Chart {
 
 	public function render()
 	{

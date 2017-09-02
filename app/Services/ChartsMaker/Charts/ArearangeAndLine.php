@@ -4,7 +4,7 @@ namespace App\Services\ChartsMaker\Charts;
 
 use EnergieProduction\Chart\Criterias;
 
-class ArearangeAndLine extends Chart {
+class AreaRangeAndLine extends Chart {
 
 	public function render()
 	{
