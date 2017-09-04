@@ -42,7 +42,7 @@
                     <h1 class="logo">
                         <a href="{{route('home')}}">
                             <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                            <span class="text-highlight">energieproduction</span><span class="text-bold">chart</span>
+                            <span class="text-highlight">chart</span><span class="text-bold">docs</span>
                         </a>
                     </h1>
                 </div><!--//branding-->
