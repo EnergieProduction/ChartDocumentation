@@ -58,6 +58,13 @@
                     <h1 class="doc-title"><i class="icon fa @yield('doc-logo')"></i> @yield('doc-title')</h1>
                 </div><!--//doc-header-->
                 <div class="doc-body">
+                    <div class="doc-sidebar hidden-sm hidden-md hidden-lg">
+                       <nav id="doc-nav">
+                            <ul class="nav doc-menu" >
+                                @yield('doc-nav')
+                            </ul>
+                        </nav>
+                    </div><!--//doc-sidebar-->
                     <div class="doc-content">
                         <div class="content-inner">
                             @yield('doc-body')
@@ -65,7 +72,9 @@
                     </div><!--//doc-content-->
                     <div class="doc-sidebar hidden-xs">
                         <nav id="doc-nav">
-                            @yield('doc-nav')
+                            <ul id="doc-menu" class="nav doc-menu affix-top" data-spy="affix">
+                                @yield('doc-nav')
+                            </ul>
                         </nav>
                     </div><!--//doc-sidebar-->
                 </div><!--//doc-body-->
